@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "three": "^0.145.0"
+  }
+}
+
+
