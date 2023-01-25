@@ -56,8 +56,8 @@ function moveCamera() {
   const t = document.querySelector("main").getBoundingClientRect().top;
   const x = document.querySelector("main").getBoundingClientRect().top;
 
-  camera.position.y = t*-0.05;
-  camera.position.x = x*-0.05;
+  camera.position.y = t*-0.10;
+  camera.position.x = x*-0.10;
 }
 
 document.body.onscroll = moveCamera
